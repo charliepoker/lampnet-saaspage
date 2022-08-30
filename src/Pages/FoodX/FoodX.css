@@ -359,11 +359,11 @@
     display: block;
   }
 
-  /* .customers_carousel {
+  .customers_carousel {
     width: 100%;
-    height: 257px;
+    height: 157px;
     background: #d9d9d9;
-  } */
+  }
 
   .app__info__container {
     margin-top: 3rem;
