@@ -179,6 +179,113 @@
   line-height: 30px;
 }
 
+/* DESKTOP VIEW (13inches */
+
+@media screen and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .foodX__banner_H3 {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  .FoodX__banner_circle1 {
+    width: 324px;
+    height: 334px;
+    background: rgba(217, 217, 217, 0.22);
+    border-radius: 50%;
+    position: absolute;
+    top: -16%;
+    right: -20px;
+  }
+  .FoodX__banner_circle2 {
+    width: 380px;
+    height: 380px;
+    background: rgba(217, 217, 217, 0.22);
+    border-radius: 50%;
+    position: absolute;
+    right: 10.5%;
+    bottom: 21%;
+    animation: scaleUp 0.5s linear;
+  }
+
+  .foodX__banner_phone img {
+    width: 40rem;
+    height: 54rem;
+  }
+
+  .customers_carousel {
+    width: 100%;
+    height: 227px;
+    background: #d9d9d9;
+  }
+
+  .app__info__container {
+    margin-top: 15rem;
+    padding: 0 10%;
+  }
+
+  .app_info_text {
+    width: 50%;
+  }
+
+  .app__info_text h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 3rem 0;
+  }
+
+  .app__info_heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    width: 60%;
+    padding-bottom: 3rem;
+  }
+
+  .app__info_content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 75%;
+    padding-bottom: 5rem;
+  }
+
+  .app__info_img {
+    position: relative;
+  }
+
+  .app__info_img img {
+    width: 25rem;
+    height: 48rem;
+  }
+
+  .app__info_circle {
+    background: #d55f5f;
+    width: 387px;
+    height: 387px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    bottom: 5%;
+    left: -35%;
+  }
+
+  .app__info_phone {
+    z-index: 1;
+  }
+
+  .app__info_text h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
 /* MOBILE VIEW */
 
 @media screen and (max-width: 480px) {
@@ -252,8 +359,14 @@
     display: block;
   }
 
+  /* .customers_carousel {
+    width: 100%;
+    height: 257px;
+    background: #d9d9d9;
+  } */
+
   .app__info__container {
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: block;
     align-items: center;
     padding: 0 5%;
@@ -295,15 +408,12 @@
   .app__info_img {
     position: relative;
     padding-top: 4rem;
-   
-    
   }
 
   .app__info_img img {
     width: 15rem;
     height: 28rem;
     margin-left: 10rem;
-
   }
 
   .app__info_circle {
@@ -315,7 +425,6 @@
     z-index: -1;
     bottom: 5%;
     left: 15%;
-    
   }
 
   .app__info_phone {
@@ -336,115 +445,4 @@
   :root {
     font-size: 60%;
   }
-}
-
-/* DESKTOP VIEW (13inches */
-
-@media screen and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  .foodX__banner_H3 {
-    font-weight: 300;
-    font-size: 2rem;
-  }
-
-  .FoodX__banner_circle1 {
-    width: 324px;
-    height: 334px;
-    background: rgba(217, 217, 217, 0.22);
-    border-radius: 50%;
-    position: absolute;
-    top: -16%;
-    right: -20px;
-  }
-  .FoodX__banner_circle2 {
-    width: 380px;
-    height: 380px;
-    background: rgba(217, 217, 217, 0.22);
-    border-radius: 50%;
-    position: absolute;
-    right: 10.5%;
-    bottom: 21%;
-    animation: scaleUp 0.5s linear;
-  }
-
-  .foodX__banner_phone img {
-    width: 40rem;
-    height: 54rem;
-  }
-
-  .customers_carousel {
-  width: 100%;
-  height: 227px;
-  background: #d9d9d9;
-}
-
-  .app__info__container {
-  margin-top: 15rem;
-  padding: 0 10%;
-
-}
-
-.app_info_text {
-  width: 50%;
-}
-
-.app__info_text h3 {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 48px;
-  padding: 3rem 0;
-}
-
-.app__info_heading {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 34px;
-  width: 60%;
-  padding-bottom: 3rem;
-}
-
-.app__info_content {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  width: 75%;
-  padding-bottom: 5rem;
-}
-
-.app__info_img {
-  position: relative;
-}
-
- .app__info_img img {
-    width: 25rem;
-    height: 48rem;
-   
-
-  }
-
-.app__info_circle {
-  background: #d55f5f;
-  width: 387px;
-  height: 387px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: -1;
-  bottom: 5%;
-  left: -35%;
-}
-
-.app__info_phone {
-  z-index: 1;
-}
-
-.app__info_text h6 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 200;
-  font-size: 20px;
-  line-height: 30px;
-}
-  
 }
