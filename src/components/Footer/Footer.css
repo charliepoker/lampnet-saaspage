@@ -80,7 +80,6 @@
   width: 50%;
 }
 
-
 .footer__email {
   margin-top: 4rem;
 }
@@ -133,4 +132,284 @@ input[type="text"] {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+/* ----------------------DESKTOP VIEW (13inches---------------------------------- */
+
+@media screen and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .footer__container {
+    background: #000000;
+  }
+
+  .footer__content {
+    padding: 5rem 5%;
+    display: flex;
+    gap: 40rem;
+    /* justify-content: space-between; */
+    flex: 9;
+  }
+
+  .footer__content_contact h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    padding-bottom: 2rem;
+  }
+
+  .address {
+    display: flex;
+  }
+
+  .address p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-left: 4rem;
+  }
+
+  .phoneno {
+    display: flex;
+  }
+
+  .phoneno p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-left: 4rem;
+  }
+
+  .email {
+    display: flex;
+  }
+
+  .email p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-left: 4rem;
+  }
+
+  .newsletter h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+
+  .newsletter p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    width: 50%;
+  }
+
+  .footer__email {
+    margin-top: 4rem;
+  }
+
+  .footer__email_input {
+    border: solid;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+    opacity: 0.5;
+    border-right-style: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  input[type="text"] {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    opacity: 0.5;
+    padding: 0.5rem 8rem 0.9rem 2rem;
+    z-index: -2;
+  }
+
+  .footer__socials {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+  }
+
+  .footer__socials_icon span {
+    padding-left: 3rem;
+  }
+
+  .closing-line {
+    border: 1px solid #ffffff;
+    margin: 0 5%;
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 1rem 5%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+}
+
+/* ---------------------------MOBILE VIEW---------------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .footer__container {
+    background: #000000;
+  }
+
+  .footer__content {
+    padding: 5rem 5%;
+    display: block;
+  }
+
+  .footer__content_contact h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    padding-bottom: 2rem;
+  }
+
+  .address {
+    display: flex;
+  }
+
+  .address p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-left: 2rem;
+  }
+
+  .phoneno {
+    display: flex;
+  }
+
+  .phoneno p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-left: 2rem;
+  }
+
+  .email {
+    display: flex;
+  }
+
+  .email p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-left: 2rem;
+  }
+
+  .newsletter h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin-top: 3rem;
+  }
+
+  .newsletter p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    width: 100%;
+  }
+
+  .footer__email {
+    margin-top: 2rem;
+  }
+
+  .footer__email_input {
+    border: solid;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+    opacity: 0.5;
+    border-right-style: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  input[type="text"] {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    opacity: 0.5;
+    padding: 0.7rem 8rem 0.7rem 2rem;
+    z-index: -2;
+  }
+
+  .footer__socials {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+  }
+
+  .footer__socials_icon span {
+    padding-left: 2rem;
+  }
+
+  .closing-line {
+    border: 1px solid #ffffff;
+    margin: 0 5%;
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 1rem 5%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
 }
