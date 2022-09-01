@@ -1,10 +1,16 @@
 /* eslint-disable react/style-prop-object */
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "./../Button/Button";
 import "./Navbar.css";
 
 function Navbar() {
+    const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+    const toggleHamburger = () => {
+      setHamburgerOpen(!hamburgerOpen)
+    }
   return (
     <>
       <div className="lamp__nav">
@@ -32,12 +38,13 @@ function Navbar() {
         </div>
         <Button text="Get Started" btnStyle="btn__white" />
       </div>
+
       <div className="lamp__mobilenav">
         <div className="lamp__navmobile-logo">
           {/* <img src={"/public/lampnet-logo.png"} alt="lampnet Logo" /> */}
           <h1>FoodX</h1>
         </div>
-        <div className="lamp__mobilenav-menu-hamburger">
+        <div className="lamp__mobilenav-menu-hamburger" onClick = {toggleHamburger} >
           <div className="lamp_hamburger lamp_hamburger-1"></div>
           <div className="lamp_hamburger lamp_hamburger-2"></div>
           <div className="lamp_hamburger lamp_hamburger-3"></div>

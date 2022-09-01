@@ -364,7 +364,7 @@ input[type="text"] {
   }
 
   .footer__email_input {
-    border: solid;
+    border: 1px solid;
     border-radius: 5px;
     background: transparent;
     color: #ffffff;
