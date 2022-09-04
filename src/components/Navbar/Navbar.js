@@ -16,7 +16,6 @@ function Navbar() {
       <div className="lamp__nav">
         <div className="lamp__nav-logo">
           <Link to="/">
-            {/* <img src={"./lampnet-logo.png"} alt="lampnet Logo" /> */}
             <h1>FoodX</h1>
           </Link>
         </div>
@@ -36,7 +35,9 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <Button text="Get Started" btnStyle="btn__white" />
+        <Link to="/products">
+          <Button text="Get Started" btnStyle="btn__white" />
+        </Link>
       </div>
 
       <div className="lamp__mobilenav">
@@ -44,7 +45,10 @@ function Navbar() {
           {/* <img src={"/public/lampnet-logo.png"} alt="lampnet Logo" /> */}
           <h1>FoodX</h1>
         </div>
-        <div className="lamp__mobilenav-menu-hamburger" onClick = {toggleHamburger} >
+        <div
+          className="lamp__mobilenav-menu-hamburger"
+          onClick={toggleHamburger}
+        >
           <div className="lamp_hamburger lamp_hamburger-1"></div>
           <div className="lamp_hamburger lamp_hamburger-2"></div>
           <div className="lamp_hamburger lamp_hamburger-3"></div>

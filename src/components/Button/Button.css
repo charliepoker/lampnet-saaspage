@@ -5,6 +5,7 @@
   outline: none;
   border: none;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
 
 .btn__primary:hover {
@@ -16,6 +17,7 @@
   color: white;
   height: 100%;
   width: 100%;
+  cursor: pointer;
 }
 
 .btn__secondary {
@@ -25,6 +27,7 @@
   outline: none;
   border: none;
   border-radius: 0.3rem;
+  cursor: pointer;
 }
 
 .btn__white {
@@ -34,4 +37,5 @@
   outline: none;
   border: none;
   border-radius: 0.3rem;
+  cursor: pointer;
 }

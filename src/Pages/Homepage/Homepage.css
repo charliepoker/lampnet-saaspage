@@ -1,0 +1,98 @@
+.foodX__banner_container {
+  display: flex;
+  justify-content: space-between;
+  background: #c00c0c;
+  padding: 5rem 10%;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 90vh;
+}
+
+.foodX__banner_text {
+  width: 50%;
+  margin-bottom: 7rem;
+}
+
+.foodX__banner_H3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2rem;
+  color: #fff;
+  padding-bottom: 4rem;
+  line-height: 1.3;
+}
+
+.foodX__banner_P {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  color: #ffffff;
+  width: 80%;
+  padding-bottom: 4rem;
+}
+
+.FoodX__banner_image {
+  position: relative;
+  opacity: 0;
+  animation: fadeInRight 1.5s forwards;
+}
+
+.FoodX__banner_circle1 {
+  width: 504px;
+  height: 514px;
+  background: rgba(217, 217, 217, 0.22);
+  border-radius: 50%;
+  position: absolute;
+  top: -17%;
+  right: -20px;
+}
+.FoodX__banner_circle2 {
+  width: 504px;
+  height: 514px;
+  background: rgba(217, 217, 217, 0.22);
+  border-radius: 50%;
+  position: absolute;
+  right: 13.5%;
+  bottom: 21.8%;
+  animation: scaleUp 0.5s linear;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.products_heading {
+  text-align: center;
+  margin-top: 6rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+ 
+}
+.product__cards_container {
+  padding: 5% 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6rem;
+}

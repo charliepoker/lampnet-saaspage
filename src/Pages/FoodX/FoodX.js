@@ -3,8 +3,20 @@ import Button from "../../components/Button/Button";
 import FeatureCard from "../../components/Card/FeatureCard";
 import { feature } from "../../data/feature";
 import "./FoodX.css";
+import AppInfo1 from "../../components/AppInfo/AppInfo1"
+import AppInfo2 from "../../components/AppInfo/AppInfo2";
+
+import {
+  textAnimation,
+  topContainerAnimation,
+  videoAnimation,
+  reasonsAnimation,
+} from "./../../utils/Animations";
+import { motion } from "framer-motion/dist/framer-motion";
+import { useScroll } from "../../components/UseScroll/UseScroll";
 
 function FoodX() {
+  const [element, controls] = useScroll();
   return (
     <>
       <div className="foodX__banner_container">
@@ -37,7 +49,15 @@ function FoodX() {
       <div className="features_text">
         <h2> Features</h2>
       </div>
-      <div className="feature__card_container">
+      <motion.div
+        className="feature__card_container"
+        ref={element}
+        variants={textAnimation}
+        animate={controls}
+        transition={{
+          duration: 1,
+        }}
+      >
         {feature.map((cur, i) => {
           return (
             <FeatureCard
@@ -47,7 +67,7 @@ function FoodX() {
             />
           );
         })}
-      </div>
+      </motion.div>
 
       <div className="customers__text">
         <h2>Our Customers</h2>
@@ -56,149 +76,10 @@ function FoodX() {
         </div>
       </div>
 
-      <div className="app__info__container">
-        <div className="app__info_text">
-          <h3>IN-APP MONITORING</h3>
-          <p className="app__info_heading">
-            Monitor deliveries and orders all from one place
-          </p>
-          <p className="app__info_content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing Aliquam vel neque
-            nec ex tempus varius mi in purus Cras sit amet di issim enim.
-            Loremipsumsit amet consectetur adipiscing elit. Aliquam vel neque
-            nec varius mi in purus maximus vulputate. Cras sit ameconsectetur
-            adipiscing elit. Aliquam vel neque nec.
-          </p>
-          <h6>
-            Explore this feature{" "}
-            <span>
-              <svg
-                width="24"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699"
-                  stroke="#000"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M3.5 12H20.33"
-                  stroke="#000"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>{" "}
-          </h6>
-        </div>
-        <div className="app__info_img">
-          <div className="app__info_circle"></div>
-          <img src={"./phone1.png"} alt="" className="app__info_phone" />
-        </div>
-      </div>
-
-      <div className="app__info2__container">
-        <div className="app__info2_img">
-          <img src={"./phone2.png"} alt="" className="app__info_phone" />
-        </div>
-        <div className="app__info2_text">
-          <h3>STOCK UPDATING</h3>
-          <p className="app__info2_heading">Quick updating of items on sale</p>
-          <p className="app__info2_content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing Aliquam vel neque
-            nec ex tempus varius mi in purus Cras sit amet di issim enim.
-            Loremipsumsit amet consectetur adipiscing elit. Aliquam vel neque
-            nec varius mi in purus maximus vulputate. Cras sit ameconsectetur
-            adipiscing elit. Aliquam vel neque nec.
-          </p>
-          <h6>
-            Explore this feature{" "}
-            <span>
-              <svg
-                width="24"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699"
-                  stroke="#000"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M3.5 12H20.33"
-                  stroke="#000"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>{" "}
-          </h6>
-        </div>
-      </div>
-
-      <div className="app__info__container">
-        <div className="app__info_text">
-          <h3>CUSTOMER FEEDBACK</h3>
-          <p className="app__info_heading">
-            Check your customers favourites and know what they like
-          </p>
-          <p className="app__info_content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing Aliquam vel neque
-            nec ex tempus varius mi in purus Cras sit amet di issim enim.
-            Loremipsumsit amet consectetur adipiscing elit. Aliquam vel neque
-            nec varius mi in purus maximus vulputate. Cras sit ameconsectetur
-            adipiscing elit. Aliquam vel neque nec.
-          </p>
-          <h6>
-            Explore this feature{" "}
-            <span>
-              <svg
-                width="24"
-                height="14"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699"
-                  stroke="#000"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M3.5 12H20.33"
-                  stroke="#000"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>{" "}
-          </h6>
-        </div>
-        <div className="app__info_img">
-          <div className="app__info_circle"></div>
-          <img src={"./phone3.png"} alt="" className="app__info_phone" />
-        </div>
-      </div>
+      <AppInfo1/>
+      <AppInfo2/>
+      <AppInfo1/>
+      
 
       <div className="pricing__text">
         <h2>PRICING</h2>
@@ -455,7 +336,7 @@ function FoodX() {
       <div className="footer__cta">
         <h5>Start today, and enjoy our fee trial</h5>
         <p>Start your 7-day free trial. No credit card required</p>
-        <Button text="Start free trial" btnStyle = "btn__primary"/>
+        <Button text="Start free trial" btnStyle="btn__primary" />
       </div>
     </>
   );
