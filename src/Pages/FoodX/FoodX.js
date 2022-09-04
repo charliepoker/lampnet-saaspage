@@ -8,9 +8,8 @@ import AppInfo2 from "../../components/AppInfo/AppInfo2";
 
 import {
   textAnimation,
-  topContainerAnimation,
-  videoAnimation,
-  reasonsAnimation,
+  
+  
 } from "./../../utils/Animations";
 import { motion } from "framer-motion/dist/framer-motion";
 import { useScroll } from "../../components/UseScroll/UseScroll";

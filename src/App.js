@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { Route,  Routes } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import Navbar from "./components/Navbar/Navbar";
 import FoodX from "./Pages/FoodX/FoodX";
