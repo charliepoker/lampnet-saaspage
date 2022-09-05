@@ -396,7 +396,7 @@
     align-items: center;
     position: relative;
     /* overflow: hidden; */
-    height: 80vh;
+    height: auto;
   }
   .foodX__banner_text {
     width: 100%;
@@ -407,7 +407,7 @@
     font-style: normal;
     text-align: center;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: #fff;
     padding: 5rem 0 1.8rem;
     line-height: 1.3;
@@ -417,11 +417,11 @@
     font-style: normal;
     font-weight: 200;
     text-align: center;
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 1.5;
     color: #ffffff;
     width: 95%;
-    padding: 4rem 0;
+    padding: 2rem 0;
     margin: 0 auto;
   }
   .FoodX__banner_circle1 {
@@ -446,10 +446,16 @@
     display: none;
   }
 
-  .banner_btn {
+
+  .banner_btn button {
     margin: 0 auto;
-    display: flex;
+    margin-top: 2rem;
+    display: block;
     justify-content: center;
+    width: 60%;
+    padding: 2.8rem 0;
+    font-size:20px;
+    font-weight: 600;
   }
 
   .foodX__banner_phone img {

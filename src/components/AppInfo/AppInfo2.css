@@ -106,12 +106,13 @@
     font-weight: 200;
     font-size: 20px;
     line-height: 30px;
+    overflow: hidden;
   }
 
   .app__info2__container {
-    display: flex;
+    display: block;
     flex-direction: column;
-    padding: 0 5%;
+    padding: 5rem 5%;
   }
 
   .app__info2_text {
@@ -166,5 +167,6 @@
     font-weight: 200;
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
   }
 }

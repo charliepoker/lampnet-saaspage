@@ -29,7 +29,7 @@ function AppInfo1() {
           adipiscing elit. Aliquam vel neque nec.
         </p>
         <h6>
-          Explore this feature{" "}
+          Explore this feature
           <span>
             <svg
               width="24"
@@ -55,7 +55,7 @@ function AppInfo1() {
                 stroke-linejoin="round"
               />
             </svg>
-          </span>{" "}
+          </span>
         </h6>
       </motion.div>
       <motion.div

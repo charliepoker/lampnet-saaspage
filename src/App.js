@@ -4,7 +4,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Navbar from "./components/Navbar/Navbar";
 import FoodX from "./Pages/FoodX/FoodX";
 import Footer from "./components/Footer/Footer";
-import Homepage from "./Pages/Homepage/Homepage";
+// import Homepage from "./Pages/Homepage/Homepage";
 import { motion } from "framer-motion/dist/framer-motion";
 
 
@@ -16,7 +16,7 @@ function App() {
       <ScrollToTop smooth color="#e01b0d" />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        {/* <Route path="/" element={<Homepage />} /> */}
         <Route path="/products" element={<FoodX />} />
       </Routes>
       <Footer />

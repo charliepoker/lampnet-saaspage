@@ -68,16 +68,16 @@ function FoodX() {
         })}
       </motion.div>
 
-      <div className="customers__text">
+      {/* <div className="customers__text">
         <h2>Our Customers</h2>
         <div className="customers_carousel">
-          {/* TODO: Create a  custom carousel to display customers*/}
+          TODO: Create a  custom carousel to display customers
         </div>
-      </div>
+      </div> */}
 
       <AppInfo1/>
       <AppInfo2/>
-      <AppInfo1/>
+      {/* <AppInfo1/> */}
       
 
       <div className="pricing__text">
