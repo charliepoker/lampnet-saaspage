@@ -224,6 +224,7 @@
   .app__info_img {
     position: relative;
     padding-top: 4rem;
+    display: none;
   }
 
   .app__info_img img {

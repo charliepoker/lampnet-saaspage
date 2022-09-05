@@ -114,8 +114,6 @@
   background: #d9d9d9;
 }
 
-
-
 .app__info2__container {
   margin-top: 25rem;
   display: flex;
@@ -218,7 +216,7 @@
   text-align: center;
 }
 
-.pricing__card Button {
+.pricing__card button {
   margin: 1rem auto 4rem auto;
   display: block;
 }
@@ -253,7 +251,7 @@
   line-height: 36px;
 }
 
-.footer__cta Button {
+.footer__cta button {
   margin: 4rem auto;
   display: block;
 }
@@ -295,8 +293,6 @@
     height: 227px;
     background: #d9d9d9;
   }
-
- 
 
   .pricing__text h2 {
     text-align: center;
@@ -349,7 +345,7 @@
     text-align: center;
   }
 
-  .pricing__card Button {
+  .pricing__card button {
     margin: 1rem auto 4rem auto;
     display: block;
   }
@@ -363,31 +359,31 @@
   }
 
   .footer__cta {
-  background: #e6efeb;
-  padding: 4rem 0;
-}
+    background: #e6efeb;
+    padding: 4rem 0;
+  }
 
-.footer__cta h5 {
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 72px;
-  padding: 0 0 2rem 0;
-}
+  .footer__cta h5 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 72px;
+    padding: 0 0 2rem 0;
+  }
 
-.footer__cta p {
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 36px;
-}
+  .footer__cta p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+  }
 
-.footer__cta Button {
-  margin: 3rem auto;
-  display: block;
-}
+  .footer__cta button {
+    margin: 3rem auto;
+    display: block;
+  }
 }
 
 /* ---------------------------MOBILE VIEW---------------------------------------- */
@@ -399,7 +395,7 @@
     padding: 2rem 5%;
     align-items: center;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 80vh;
   }
   .foodX__banner_text {
@@ -436,6 +432,7 @@
     position: absolute;
     top: 64%;
     right: -20px;
+    display: none;
   }
   .FoodX__banner_circle2 {
     width: 252px;
@@ -446,6 +443,7 @@
     right: -38.5%;
     bottom: 20%;
     animation: scaleUp 0.5s linear;
+    display: none;
   }
 
   .banner_btn {
@@ -457,6 +455,7 @@
   .foodX__banner_phone img {
     width: 37rem;
     height: 35rem;
+    display: none;
   }
 
   .feature__card_container {
@@ -602,7 +601,6 @@
     line-height: 30px;
   }
 
-
   .pricing__text h2 {
     text-align: center;
     margin: 7rem 0;
@@ -616,7 +614,7 @@
     padding: 2rem 5%;
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     /* margin-bottom: 7rem; */
   }
 
@@ -624,7 +622,7 @@
     border: 0.5px solid #000;
     border-radius: 7px;
     margin-bottom: 3rem;
-     margin-right: 0rem;
+    margin-right: 0rem;
   }
 
   .pricing__card h4 {
@@ -656,7 +654,7 @@
     text-align: center;
   }
 
-  .pricing__card Button {
+  .pricing__card button {
     margin: 1rem auto 4rem auto;
     display: block;
   }
@@ -670,58 +668,58 @@
   }
 
   .footer__cta {
-  background: #e6efeb;
-  padding: 6rem 0;
-}
+    background: #e6efeb;
+    padding: 6rem 0;
+  }
 
-.footer__cta h5 {
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 72px;
-  padding: 0 0 3rem 0;
-}
+  .footer__cta h5 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 72px;
+    padding: 0 0 3rem 0;
+  }
 
-.footer__cta p {
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 36px;
-}
+  .footer__cta p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+  }
 
-.footer__cta Button {
-  margin: 4rem auto;
-  display: block;
-}
+  .footer__cta button {
+    margin: 4rem auto;
+    display: block;
+  }
 
- .footer__cta {
-  background: #e6efeb;
-  padding: 2rem 0;
-}
+  .footer__cta {
+    background: #e6efeb;
+    padding: 2rem 0;
+  }
 
-.footer__cta h5 {
-  text-align: center;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 32px;
-  padding: 0 0 2rem 0;
-}
+  .footer__cta h5 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    padding: 0 0 2rem 0;
+  }
 
-.footer__cta p {
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 36px;
-}
+  .footer__cta p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 36px;
+  }
 
-.footer__cta Button {
-  margin: 3rem auto;
-  display: block;
-}
+  .footer__cta button {
+    margin: 3rem auto;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {

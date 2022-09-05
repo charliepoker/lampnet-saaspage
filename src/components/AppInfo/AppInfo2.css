@@ -157,6 +157,7 @@
     width: 15rem;
     height: 28rem;
     margin-top: 3rem;
+    display: none;
   }
 
   .app__info2_text h6 {
