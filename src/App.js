@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         {/* <Route path="/" element={<Homepage />} /> */}
-        <Route path="/products" element={<FoodX />} />
+        <Route path="/" element={<FoodX />} />
       </Routes>
       <Footer />
     </motion.div>
