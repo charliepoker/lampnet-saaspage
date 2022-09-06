@@ -233,7 +233,7 @@
     width: 15rem;
     height: 28rem;
     margin-left: 11rem;
-  } */
+  }
 
   .app__info_circle {
     background: #d55f5f;
@@ -246,31 +246,31 @@
     left: 16.5%;
   }
 
-   .app__info_phone {
+  .app__info_phone {
     z-index: 1;
-  } 
+  }
 
-  .app__info2_text h6 {
+  .app__info_text h6 {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
     line-height: 30px;
-    text-align: center
+    text-align: center;
   }
 
-  .app__info2__container {
+  .app__info__container {
     display: flex;
     flex-direction: column;
     padding: 0 5%;
   }
 
-  .app__info2_text {
+  .app__info_text {
     order: 1;
     width: 100%;
   }
 
-  .app__info2_text h3 {
+  .app__info_text h3 {
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -280,7 +280,7 @@
     text-align: center;
   }
 
-  .app__info2_heading {
+  .app__info_heading {
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
@@ -290,7 +290,7 @@
     text-align: center;
   }
 
-  .app__info2_content {
+  .app__info_content {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -309,12 +309,4 @@
     height: 28rem;
     margin-top: 3rem;
   } */
-
-  .app__info2_text h6 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 30px;
-  }
 }
