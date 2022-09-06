@@ -372,6 +372,7 @@ input[type="text"] {
     border-right-style: none;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
+    width:70%;
   }
 
   input[type="text"] {
@@ -383,7 +384,7 @@ input[type="text"] {
     letter-spacing: 0.02em;
     color: #ffffff;
     opacity: 0.5;
-    padding: 0.7rem 8rem 0.7rem 2rem;
+    padding: 0.5rem 8rem 0.5rem 2rem;
     z-index: -2;
   }
 
