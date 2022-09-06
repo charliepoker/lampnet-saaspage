@@ -5,13 +5,14 @@ import { motion } from "framer-motion/dist/framer-motion";
 function FeatureCard({ title, description, variants, animate }) {
   return (
     <>
-      <div
+      <motion.div
         className="card__container"
-        
+        variants={variants}
+        animate={animate}
       >
         <h3>{title}</h3>
         <p>{description}</p>
-      </div>
+      </motion.div>
     </>
   );
 }

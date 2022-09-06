@@ -48,9 +48,14 @@ function FoodX() {
       <div className="features_text">
         <h2> Features</h2>
       </div>
-      <div
+      <motion.div
         className="feature__card_container"
-       
+        ref={element}
+        variants={textAnimation}
+        animate={controls}
+        transition={{
+          duration: 1,
+        }}
       >
         {feature.map((cur, i) => {
           return (
@@ -61,7 +66,7 @@ function FoodX() {
             />
           );
         })}
-      </div>
+      </motion.div>
 
       {/* <div className="customers__text">
         <h2>Our Customers</h2>
